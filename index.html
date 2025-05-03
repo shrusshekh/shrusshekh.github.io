@@ -137,27 +137,6 @@
       gap: 1rem;
     }
 
-    footer {
-      background-color: #E6E6FA;
-      color: #000000;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 1rem;
-      font-weight: 600;
-      font-size: 0.95rem;
-      width: 100%vw;
-    }
-    
-    footer a {
-      color: #000000;
-      text-decoration: none;
-    }
-    
-    footer a:hover {
-      color: #ffffff;
-    }
-
     .flip-card-container {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -270,6 +249,13 @@
       margin-top: 0.5rem;
       font-size: 0.95rem;
       color: #666;
+    }
+
+    .footer { 
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    z-index: 10;
     }
 
   </style>
@@ -509,10 +495,9 @@
     </div>
   </section>
 
-<footer>
-  <p>Contact: shrusti.shekhadia@torontomu.ca | <a href="https://www.linkedin.com/in/shrusti-shekh">LinkedIn</a></p>
-</footer>
-
+<div class="footer">
+  Footer content
+</div>
 
 </body>
 </html>
