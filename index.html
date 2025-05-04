@@ -257,6 +257,32 @@
       background-color:#E6E6FA;
       color: black;
     }
+
+    .bottom-bar {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background-color: #E6E6FA;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 0.75rem 0;
+      box-shadow: 0 -2px 6px rgba(0,0,0,0.1);
+      z-index: 1000;
+    }
+    
+    .bottom-bar a {
+      color: #000;
+      font-weight: 600;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+    
+    .bottom-bar a:hover {
+      color: #666;
+    }
+
   </style>
 </head>
 
@@ -494,9 +520,14 @@
     </div>
   </section>
 
-<footer>
-  <p>Website designed by: Shrusti Shekhadia<br>
-</footer>
+<div class="bottom-bar">
+  <a href="#About">About</a>
+  <a href="#Projects">Projects</a>
+  <a href="#CreativeWorks">Creative Works</a>
+  <a href="#Skills">Skills</a>
+  <a href="#Connect">Connect</a>
+</div>
+
 
 </body>
 </html>
