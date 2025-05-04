@@ -18,11 +18,15 @@
       background: #f7f7f7;
       color: #333;
       scroll-behavior: smooth;
+      min-height: 100vh;
     }
 
     .aboutSection {
-      text-align: center;  
+      text-align: center;
       padding: 2rem;
+      max-width: 1200px;
+      margin: 0 auto;
+      width: 100%;
     }
 
     .aboutSection h1{
@@ -90,26 +94,29 @@
     }
 
     .hero {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;  /* Full height of the viewport */
       text-align: center;
-      padding-top: 2rem;
     }
 
     .hero h1 {
-      font-size: 3rem;
-      margin-bottom: 0.5rem;
+      font-size: 5vw;
     }
 
     .hero p {
-      font-size: 1.25rem;
+      font-size: 2vw; 
       color: #ccc;
-      max-width: 600px;
+      max-width: 80vw; 
       margin: 0 auto;
     }
 
     section {
       padding: 2rem;
-      max-width: 1000px;
+      max-width: 1200px; /* or even 1400px */
       margin: auto;
+      width: 100%;
     }
 
     h2 {
